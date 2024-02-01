@@ -8,4 +8,4 @@ totalCost = foodCharge + tip + tax
 print("""The cost of the meal was: ${:.2f}.
 The tax on this is ${:.2f}.
 The tip amount is: ${:.2f}.
-The total cost of the meal with tip and tax is: ${:.2f}.""".format(foodCharge, tip, tax, totalCost))
+The total cost of the meal with tip and tax is: ${:.2f}.""".format(foodCharge, tax, tip, totalCost))
